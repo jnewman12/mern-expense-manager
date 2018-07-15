@@ -5,6 +5,7 @@ var router = require('./routes/routes.js')
 var path = require('path');
 var app = express();
 var mongoose = require('mongoose');
+var bodyParser = require('bodyParser');
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '../client'));
